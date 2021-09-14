@@ -1,4 +1,4 @@
-### Hi there 👋
+### Random Stuff
 
 <!--
 **cam0studios/cam0studios** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
