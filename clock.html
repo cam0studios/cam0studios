@@ -20,13 +20,13 @@
         return currTime;
       }
       function update(){
-        const d = new Date()
+        var d = new Date()
         var clocktext = document.getElementById("clocktext")
         clocktext.innerHTML = time(d)
       }
       setInterval(() => {
         update()
-      }, 100);
+      }, 500);
     </script>
   </body>
 </html>
