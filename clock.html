@@ -19,9 +19,14 @@
         var currTime = hours + ":" + minutes + ":" + seconds + " " + ampm;
         return currTime;
       }
-      const d = new Date()
-      var clocktext = document.getElementById("clocktext")
-      clocktext.innerHTML = time(d)
+      function update(){
+        const d = new Date()
+        var clocktext = document.getElementById("clocktext")
+        clocktext.innerHTML = time(d)
+      }
+      setInterval(() => {
+        update()
+      }, 100);
     </script>
   </body>
 </html>
